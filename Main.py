@@ -1,9 +1,17 @@
 """Program Pengelolaan Data Mahasiswa Sistem Akademik."""
 
-from linked_list import LinkedList
-from stack import Stack
-from queue import Queue
-from Sistem_Akademik import SistemAkademik
+# ============================================================
+# PROGRAM UTAMA
+# ============================================================
+# File ini berisi:
+# 1. Menu
+# 2. Input pengguna
+# 3. Menjalankan fitur sistem akademik
+# ============================================================
+
+
+# Mengambil class SistemAkademik
+from sistem_akademik import SistemAkademik
 
 def tampilkan_mahasiswa(mahasiswa):
 	print("NIM: {} | Nama: {} | Prodi: {}".format(

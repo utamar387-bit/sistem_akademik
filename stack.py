@@ -1,3 +1,17 @@
+# ============================================================
+# STACK
+# ============================================================
+# File ini digunakan untuk membuat Stack.
+#
+# Stack digunakan untuk fitur Undo.
+#
+# Prinsip:
+# LIFO = Last In First Out
+#
+# Data yang terakhir masuk akan keluar terlebih dahulu.
+# ============================================================
+
+
 class Stack:
 	"""Stack berbasis list untuk menyimpan riwayat Undo (LIFO)."""
 

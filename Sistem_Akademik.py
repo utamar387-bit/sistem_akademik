@@ -1,9 +1,24 @@
 
+# ============================================================
+# SISTEM AKADEMIK
+# ============================================================
+# File ini menggabungkan:
+#
+# 1. List
+# 2. Linked List
+# 3. Dictionary
+# 4. Stack
+# 5. Queue
+# ============================================================
 
 
+# Mengambil LinkedList dari file linked_list.py
 from linked_list import LinkedList
-import stack
-from stack import Stack, stack
+
+# Mengambil Stack dari file stack.py
+from stack import Stack
+
+# Mengambil Queue dari file queue.py
 from queue import Queue
 
 class SistemAkademik:
